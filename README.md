@@ -1,6 +1,6 @@
 # Nombre del Proyecto
 
-> Aquí va el nombre de tu SPA (JSON PLACEHOLDER)
+> JSON PLACEHOLDER
 
 ## Descripción
 
@@ -16,9 +16,7 @@ El proyecto incluye:
 
 ## API utilizada
 
-> Aquí coloca la URL de la API que estás usando, por ejemplo:
-> `https://rickandmortyapi.com/api/character/`
-> O cualquier otra API pública que elijas.
+> `https://jsonplaceholder.typicode.com/`
 
 ## Instalación
 
