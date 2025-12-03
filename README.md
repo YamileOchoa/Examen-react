@@ -89,12 +89,12 @@ src/
 ## Deploy
 
 > Aquí coloca el link al deploy, por ejemplo en **Vercel** o **Netlify**:
-> [https://tu-proyecto.vercel.app](https://tu-proyecto.vercel.app)
+> [examen-react-alpha.vercel.app]
 
 ## Video
 
 > Link al video de demostración (YouTube):
-> [https://youtu.be/tu-video](https://youtu.be/tu-video)
+> [https://youtu.be/DZjsM0MTVyE]
 
 El video de demostración incluye:
 
