@@ -5,7 +5,7 @@ export const useStore = create((set, get) => ({
     page: 1,
     totalPages: 1,
     error: null,
-    fetchCharacters: async (pageParam) => {
+    fetchPosts: async (pageParam) => {
         set({ loading: true, error: null });
 
         try {
