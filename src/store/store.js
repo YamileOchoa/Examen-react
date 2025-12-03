@@ -21,7 +21,7 @@ export const useStore = create((set, get) => ({
             });
         } catch (err) {
             set({ error: err.message, loading: false });
-            console.error("Error fetching characters:", err);
+            console.error("Error fetching posts:", err);
         }
     }
 }));
