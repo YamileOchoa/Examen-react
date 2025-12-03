@@ -1,18 +1,116 @@
-# React + Vite
+# Nombre del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aquí va el nombre de tu SPA (JSON PLACEHOLDER)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto es una **Single Page Application (SPA)** desarrollada con **React + Vite**, que consume una **API pública** para mostrar datos dinámicos y permite interacción con el usuario mediante un formulario de contacto.
 
-## React Compiler
+El proyecto incluye:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **Estado global con Zustand**
+* **Rutas con React Router y layouts**
+* **Diseño responsive con Tailwind CSS**
+* **Paginación en el listado de elementos**
+* **Formulario de contacto con validación básica**
 
-Note: This will impact Vite dev & build performances.
+## API utilizada
 
-## Expanding the ESLint configuration
+> Aquí coloca la URL de la API que estás usando, por ejemplo:
+> `https://rickandmortyapi.com/api/character/`
+> O cualquier otra API pública que elijas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone <(https://github.com/YamileOchoa/Examen-react.git)>
+cd <react-examen>
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Levantar la aplicación en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+## Estructura de Carpetas
+
+```text
+src/
+├── components/
+│   ├── Card.jsx
+│   ├── CardList.jsx
+│   ├── Header.jsx
+│   └── Footer.jsx
+├── layouts/
+│   └── RootLayout.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Entities.jsx
+│   └── Contact.jsx
+├── store/
+│   └── store.js
+├── App.jsx
+└── main.jsx
+```
+
+## Funcionalidad
+
+### Home Page (`/`)
+
+* Hero section con imagen de fondo y texto de bienvenida
+* CardList mostrando 6+ elementos desde el estado global
+
+### Entities Page (`/entities`)
+
+* Fetch de la API para listar todos los elementos
+* Cards con la información de cada elemento
+* Paginación (botones Prev/Next)
+* Fondo neutral para resaltar los cards
+
+### Contact Page (`/contact`)
+
+* Formulario simple con:
+
+  * Nombre (requerido)
+  * Email (requerido)
+  * Mensaje (textarea)
+* Validación básica de campos
+* Mensaje de éxito al enviar
+
+## Deploy
+
+> Aquí coloca el link al deploy, por ejemplo en **Vercel** o **Netlify**:
+> [https://tu-proyecto.vercel.app](https://tu-proyecto.vercel.app)
+
+## Video
+
+> Link al video de demostración (YouTube):
+> [https://youtu.be/tu-video](https://youtu.be/tu-video)
+
+El video de demostración incluye:
+
+1. Clonación y levantamiento del proyecto
+2. Navegación entre páginas
+3. Funcionamiento del fetch y uso de Zustand
+4. Uso del formulario de contacto
+
+## Tecnologías Utilizadas
+
+* React + Vite
+* Zustand (estado global)
+* React Router
+* Tailwind CSS
+* Fetch API
+
+## Autor
+
+* Yamile Ochoa Marin - Tecsup
